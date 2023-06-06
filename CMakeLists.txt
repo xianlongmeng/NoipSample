@@ -3,4 +3,6 @@ project(NoipSample)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(NoipSample main.cpp)
+ADD_SUBDIRECTORY(UVA_Home)
+
+add_executable(NoipSample main.cpp UVA_Home/helloworld.cpp)
