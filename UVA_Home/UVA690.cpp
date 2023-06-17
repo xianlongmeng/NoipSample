@@ -11,6 +11,7 @@ char read(){
     return ch;
 }
 
+
 bool check(int *s,int stp){//s为上一次的状态,stp表示位移量
     for(int i=0;i<5;i++)
         if((s[i]>>stp)&uni[i])return false;
